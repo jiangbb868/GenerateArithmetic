@@ -1,0 +1,51 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: GenerateArithmetic - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Release/GenerateArithmetic.res" /d "NDEBUG" /d "_AFXDLL" "F:\Alkaid\GenerateArithmetic\GenerateArithmetic.rc"" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP33C.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/GenerateArithmetic.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"F:\Alkaid\GenerateArithmetic\ArithmeticFactory.cpp"
+"F:\Alkaid\GenerateArithmetic\GenerateArithmetic.cpp"
+"F:\Alkaid\GenerateArithmetic\GenerateArithmeticDlg.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP33C.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP33D.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/GenerateArithmetic.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"F:\Alkaid\GenerateArithmetic\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP33D.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP33E.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/GenerateArithmetic.pdb" /machine:I386 /out:"Release/GenerateArithmetic.exe" 
+.\Release\ArithmeticFactory.obj
+.\Release\GenerateArithmetic.obj
+.\Release\GenerateArithmeticDlg.obj
+.\Release\StdAfx.obj
+.\Release\GenerateArithmetic.res
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP33E.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+ArithmeticFactory.cpp
+GenerateArithmetic.cpp
+GenerateArithmeticDlg.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+GenerateArithmetic.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
